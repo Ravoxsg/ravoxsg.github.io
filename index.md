@@ -1,4 +1,8 @@
-<center> <h1>Mathieu RAVAUT</h1> </center>
+<center>
+  <h1>
+    Mathieu RAVAUT
+  </h1> 
+</center>
 
 
-[About us](about.md)
+Hello! I am 1st-year PhD student at Nanyang Technological University (NTU) in Singapore. 
