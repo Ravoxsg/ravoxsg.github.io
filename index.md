@@ -8,3 +8,28 @@
 Hello! I am **1st-year PhD student** in computer science at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/Pages/home.aspx) in **Singapore**. I work in [**NTU-NLP**](https://ntunlpsg.github.io/) lab under the supervision of [Dr. Shafiq Joty](https://raihanjoty.github.io/). My research is funded by a [SINGA scholarship](https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa), and I am attached to [ASTAR Institute for Infocomm Research (I2R)](https://www.a-star.edu.sg/i2r) where I am supervised by [Dr. Nancy Chen](https://sites.google.com/site/nancyfchen/home). 
 
 Prior to NTU, I worked as a Machine Learning Research Scientist at [Layer 6 AI](https://layer6.ai/), [TD Bank](https://www.td.com/ca/en/about-td/)'s AI lab in Toronto. I hold a [Master of Science in Applied Computing (MScAC)](https://mscac.utoronto.ca/) from the [University of Toronto](https://www.utoronto.ca/) with a [concentration in Data Science](https://mscac.utoronto.ca/concentrations/data-science). Before UofT, I studied Engineering (specialized in applied mathematics) at [Ecole Centrale Paris](https://en.wikipedia.org/wiki/%C3%89cole_Centrale_Paris), a French Engineering School which is now known as [CentraleSupelec](https://www.centralesupelec.fr/) and part of the newly created [Universite Paris-Saclay](https://www.universite-paris-saclay.fr/en). During my Engineering studies I interned at [Thales](https://www.thalesgroup.com/en) and [I2R](https://www.a-star.edu.sg/i2r). A long time ago, I studied *[classe preparatoire](https://en.wikipedia.org/wiki/Classe_pr%C3%A9paratoire_aux_grandes_%C3%A9coles)* in mathematics and physics at [Lycee Montaigne in Bordeaux](https://montaigne-bordeaux.fr/). 
+
+
+<div
+  class='LI-profile-badge'
+  data-version='v1'
+  data-size='medium'
+  data-locale='en_US'
+  data-type='horizontal'
+  data-theme='dark'
+  data-vanity='manavoza7'
+>
+  <a
+    class='LI-simple-link'
+    href='https://in.linkedin.com/in/manavoza7?trk=profile-badge'
+  >
+    Manav Oza
+  </a>
+</div>
+
+ <script
+  type='text/javascript'
+  src='https://platform.linkedin.com/badges/js/profile.js'
+  async
+  defer
+></script>
