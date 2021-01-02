@@ -1,3 +1,3 @@
-#### Mathieu RAVAUT
+# Mathieu RAVAUT
 
 [About us](about.md)
