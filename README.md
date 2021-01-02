@@ -1,3 +1,1 @@
-# my-repo
-
-Welcome to my repo!
+Welcome to my personal website!
