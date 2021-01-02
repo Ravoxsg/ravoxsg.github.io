@@ -1,2 +1,5 @@
 name: ravoxsg's site
 title: null
+minima:
+  social_links:
+    twitter: jekyllrb
