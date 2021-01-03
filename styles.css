@@ -37,8 +37,7 @@
   .sidenav a {font-size: 18px;}
 } 
 
-<style>
-  .top-three {
-     padding-top: 3cm;
-  }
-</style>
+.top-three {
+   padding-top: 3cm;
+}
+
