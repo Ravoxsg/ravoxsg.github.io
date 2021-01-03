@@ -45,22 +45,26 @@
   margin-right: 300px;
 }
 
- /* unvisited link */
 a:link {
-  color: red;
-}
-
-/* visited link */
-a:visited {
   color: green;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-/* mouse over link */
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 a:hover {
-  color: hotpink;
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-/* selected link */
 a:active {
-  color: blue;
-} 
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
