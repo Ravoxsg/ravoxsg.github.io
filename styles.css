@@ -69,6 +69,4 @@ a:active {
   text-decoration: underline;
 }
 
-li:not(:last-child) {
-    margin-bottom: 10px;
-}
+ul li { padding: 5px 0px; }
