@@ -69,7 +69,6 @@ a:active {
   text-decoration: underline;
 }
 
-li {
-    display:inline;
-    padding: 10px 40px;
+li:not(:last-child) {
+    margin-bottom: 10px;
 }
