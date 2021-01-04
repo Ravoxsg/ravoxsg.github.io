@@ -68,3 +68,8 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+li {
+    display:inline;
+    padding: 10px 40px;
+}
