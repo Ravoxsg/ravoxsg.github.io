@@ -76,5 +76,6 @@ a:active {
 ul li { padding: 5px 0px; }
 
 h3 {
+color: blue;
 text-transform: uppercase;
 }
