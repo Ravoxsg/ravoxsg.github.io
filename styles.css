@@ -74,3 +74,8 @@ a:active {
 }
 
 ul li { padding: 5px 0px; }
+
+.text-primary {
+  /*color: #38a0bd !important;*/
+  color: #2D7F95 !important;
+}
