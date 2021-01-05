@@ -75,7 +75,6 @@ a:active {
 
 ul li { padding: 5px 0px; }
 
-.rt {
-  color: "CornflowerBlue";
-  text-transform: uppercase;
+h3 {
+text-transform: uppercase;
 }
