@@ -76,5 +76,6 @@ a:active {
 ul li { padding: 5px 0px; }
 
 .research-title {
+  color: "CornflowerBlue";
   text-transform: uppercase;
 }
