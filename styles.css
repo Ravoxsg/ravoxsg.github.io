@@ -75,6 +75,6 @@ a:active {
 
 ul li { padding: 5px 0px; }
 
-.t3 {
+p.uppercase {
   text-transform: uppercase;
 }
