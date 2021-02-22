@@ -8,7 +8,8 @@
   left: 0;
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-left: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 /* The navigation menu links */
