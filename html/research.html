@@ -35,7 +35,7 @@
         methods, and the 1st candidate (top beam in beam search) may not be the best. However, in practice, usually only this top beam is kept and all other candidates are discarded.
         This means that sequence-to-sequence neural networks trained for summarization are not used to their full potential? In this series of paper, we address the question of 
         how to make better use of these models and find the best candidate. Several other questions arise such what is a best candidate in the first place. 
-        We explore this problem through several second-stage summarization models working at the entire <i>sequence-level</i>, processing candidates from an existing model (the "base" model) 
+        We explore this problem through several second-stage summarization models working at the entire <i>sequence-level</i>, processing candidates from an existing model (the <i>base</i> model) 
         to output a new, better summary. Our <i>second-stage</i> models are able to push the performance of base state-of-the-art models like PEGASUS or BART,
         on different datasets and different training setups. Besides, we show that second-stage summaries present interesting qualitative properties. 
         </br>
@@ -47,13 +47,13 @@
         <b>Publications</b>: 
         
         </br>
-        Re-ranking summary candidates (SummaReranker): <a href="https://arxiv.org/pdf/2203.06569.pdf" style = "text-decoration:none;color:#4682B4">ACL (2022)</a>
+        Re-ranking summary candidates (<b>SummaReranker</b>): <a href="https://arxiv.org/pdf/2203.06569.pdf" style = "text-decoration:none;color:#4682B4">ACL (2022)</a>
 
         </br>
-        Fusing summary candidates (SummaFusion): <a href="https://arxiv.org/pdf/2210.08779.pdf" style = "text-decoration:none;color:#4682B4">EMNLP (2022)</a>
+        Fusing summary candidates (<b>SummaFusion</b>): <a href="https://arxiv.org/pdf/2210.08779.pdf" style = "text-decoration:none;color:#4682B4">EMNLP (2022)</a>
 
         </br>
-        Re-ranking candidates in an unsupervised manner + deriving a self-training objective (SummScore): <a href="https://arxiv.org/pdf/2212.09593.pdf" style = "text-decoration:none;color:#4682B4">Under review</a>
+        Re-ranking candidates in an unsupervised manner + deriving a self-training objective (<b>SummScore</b>): <a href="https://arxiv.org/pdf/2212.09593.pdf" style = "text-decoration:none;color:#4682B4">Under review</a>
 
         </br>
 
