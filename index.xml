@@ -57,6 +57,14 @@
     </item>
     
     <item>
+      <title>Predicting Adverse Outcomes Due to Diabetes Complications with Machine Learning Using Administrative Health Data</title>
+      <link>https://ravoxsg.github.io/publication/diabetescomplications/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/publication/diabetescomplications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Development and Validation of a Machine Learning Model Using Administrative Health Data to Predict Onset of Type 2 Diabetes</title>
       <link>https://ravoxsg.github.io/publication/diabetesonset/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
@@ -65,10 +73,10 @@
     </item>
     
     <item>
-      <title>Predicting Adverse Outcomes Due to Diabetes Complications with Machine Learning Using Administrative Health Data</title>
-      <link>https://ravoxsg.github.io/publication/diabetescomplications/</link>
+      <title>Predicting Hospitalisations Related to Ambulatory Care Sensitive Conditions with Machine Learning for Population Health Planning: Derivation and Validation Cohort Study</title>
+      <link>https://ravoxsg.github.io/publication/hospitalizations/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/diabetescomplications/</guid>
+      <guid>https://ravoxsg.github.io/publication/hospitalizations/</guid>
       <description></description>
     </item>
     
@@ -256,7 +264,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-541678932&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-241679538&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -266,7 +274,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-541678932&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-241679538&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

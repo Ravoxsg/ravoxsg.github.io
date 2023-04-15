@@ -39,14 +39,18 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://ravoxsg.github.io/publication-type/2/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://ravoxsg.github.io/publication/diabetescomplications/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://ravoxsg.github.io/publication/diabetesonset/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ravoxsg.github.io/publication/diabetescomplications/</loc>
+    <loc>https://ravoxsg.github.io/publication/hospitalizations/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

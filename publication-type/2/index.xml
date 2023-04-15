@@ -5,12 +5,20 @@
     <link>https://ravoxsg.github.io/publication-type/2/</link>
       <atom:link href="https://ravoxsg.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ravoxsg.github.io/media/icon_hu709d8b7bc522f265dc1cd4c121c07645_1272_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://ravoxsg.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Predicting Adverse Outcomes Due to Diabetes Complications with Machine Learning Using Administrative Health Data</title>
+      <link>https://ravoxsg.github.io/publication/diabetescomplications/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/publication/diabetescomplications/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development and Validation of a Machine Learning Model Using Administrative Health Data to Predict Onset of Type 2 Diabetes</title>
@@ -21,10 +29,10 @@
     </item>
     
     <item>
-      <title>Predicting Adverse Outcomes Due to Diabetes Complications with Machine Learning Using Administrative Health Data</title>
-      <link>https://ravoxsg.github.io/publication/diabetescomplications/</link>
+      <title>Predicting Hospitalisations Related to Ambulatory Care Sensitive Conditions with Machine Learning for Population Health Planning: Derivation and Validation Cohort Study</title>
+      <link>https://ravoxsg.github.io/publication/hospitalizations/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/diabetescomplications/</guid>
+      <guid>https://ravoxsg.github.io/publication/hospitalizations/</guid>
       <description></description>
     </item>
     
