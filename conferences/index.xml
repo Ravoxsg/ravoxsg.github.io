@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Mathieu Ravaut</title>
+    <link>https://ravoxsg.github.io/conferences/</link>
+      <atom:link href="https://ravoxsg.github.io/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ravoxsg.github.io/media/icon_hu709d8b7bc522f265dc1cd4c121c07645_1272_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://ravoxsg.github.io/conferences/</link>
+    </image>
+    
+    <item>
+      <title>A Data-centric Framework for Improving Domain-specific Machine Reading Comprehension Datasets</title>
+      <link>https://ravoxsg.github.io/conferences/datamrc/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/conferences/datamrc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Twitter Engagement With Deep Language Models</title>
+      <link>https://ravoxsg.github.io/conferences/recsys/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/conferences/recsys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Summary Candidates Fusion</title>
+      <link>https://ravoxsg.github.io/conferences/summafusion/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/conferences/summafusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization</title>
+      <link>https://ravoxsg.github.io/conferences/summareranker/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/conferences/summareranker/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

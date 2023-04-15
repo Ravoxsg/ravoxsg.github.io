@@ -34,49 +34,57 @@
     
     <item>
       <title>A Data-centric Framework for Improving Domain-specific Machine Reading Comprehension Datasets</title>
-      <link>https://ravoxsg.github.io/publication/datamrc/</link>
+      <link>https://ravoxsg.github.io/conferences/datamrc/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/datamrc/</guid>
+      <guid>https://ravoxsg.github.io/conferences/datamrc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Twitter Engagement With Deep Language Models</title>
+      <link>https://ravoxsg.github.io/conferences/recsys/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/conferences/recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards Summary Candidates Fusion</title>
-      <link>https://ravoxsg.github.io/publication/summafusion/</link>
+      <link>https://ravoxsg.github.io/conferences/summafusion/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/summafusion/</guid>
+      <guid>https://ravoxsg.github.io/conferences/summafusion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization</title>
-      <link>https://ravoxsg.github.io/publication/summareranker/</link>
+      <link>https://ravoxsg.github.io/conferences/summareranker/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/summareranker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Predicting Adverse Outcomes Due to Diabetes Complications with Machine Learning Using Administrative Health Data</title>
-      <link>https://ravoxsg.github.io/publication/diabetescomplications/</link>
-      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/diabetescomplications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development and Validation of a Machine Learning Model Using Administrative Health Data to Predict Onset of Type 2 Diabetes</title>
-      <link>https://ravoxsg.github.io/publication/diabetesonset/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/diabetesonset/</guid>
+      <guid>https://ravoxsg.github.io/conferences/summareranker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Predicting Hospitalisations Related to Ambulatory Care Sensitive Conditions with Machine Learning for Population Health Planning: Derivation and Validation Cohort Study</title>
-      <link>https://ravoxsg.github.io/publication/hospitalizations/</link>
+      <link>https://ravoxsg.github.io/journals/hospitalizations/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/journals/hospitalizations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development and Validation of a Machine Learning Model Using Administrative Health Data to Predict Onset of Type 2 Diabetes</title>
+      <link>https://ravoxsg.github.io/journals/diabetesonset/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/journals/diabetesonset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Adverse Outcomes Due to Diabetes Complications with Machine Learning Using Administrative Health Data</title>
+      <link>https://ravoxsg.github.io/journals/diabetescomplications/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/hospitalizations/</guid>
+      <guid>https://ravoxsg.github.io/journals/diabetescomplications/</guid>
       <description></description>
     </item>
     
@@ -264,7 +272,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-241679538&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-268395714&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -274,7 +282,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-241679538&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-268395714&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

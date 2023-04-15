@@ -14,7 +14,11 @@
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ravoxsg.github.io/publication/datamrc/</loc>
+    <loc>https://ravoxsg.github.io/conferences/datamrc/</loc>
+    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://ravoxsg.github.io/conferences/recsys/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -22,11 +26,11 @@
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ravoxsg.github.io/publication/</loc>
+    <loc>https://ravoxsg.github.io/conferences/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ravoxsg.github.io/publication/summafusion/</loc>
+    <loc>https://ravoxsg.github.io/conferences/summafusion/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -34,7 +38,7 @@
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ravoxsg.github.io/publication/summareranker/</loc>
+    <loc>https://ravoxsg.github.io/conferences/summareranker/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -42,15 +46,19 @@
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ravoxsg.github.io/publication/diabetescomplications/</loc>
+    <loc>https://ravoxsg.github.io/journals/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ravoxsg.github.io/publication/diabetesonset/</loc>
+    <loc>https://ravoxsg.github.io/journals/hospitalizations/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://ravoxsg.github.io/journals/diabetesonset/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ravoxsg.github.io/publication/hospitalizations/</loc>
+    <loc>https://ravoxsg.github.io/journals/diabetescomplications/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

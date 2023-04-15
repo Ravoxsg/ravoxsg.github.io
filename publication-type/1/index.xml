@@ -14,25 +14,33 @@
     
     <item>
       <title>A Data-centric Framework for Improving Domain-specific Machine Reading Comprehension Datasets</title>
-      <link>https://ravoxsg.github.io/publication/datamrc/</link>
+      <link>https://ravoxsg.github.io/conferences/datamrc/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/datamrc/</guid>
+      <guid>https://ravoxsg.github.io/conferences/datamrc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Twitter Engagement With Deep Language Models</title>
+      <link>https://ravoxsg.github.io/conferences/recsys/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/conferences/recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards Summary Candidates Fusion</title>
-      <link>https://ravoxsg.github.io/publication/summafusion/</link>
+      <link>https://ravoxsg.github.io/conferences/summafusion/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/summafusion/</guid>
+      <guid>https://ravoxsg.github.io/conferences/summafusion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization</title>
-      <link>https://ravoxsg.github.io/publication/summareranker/</link>
+      <link>https://ravoxsg.github.io/conferences/summareranker/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/summareranker/</guid>
+      <guid>https://ravoxsg.github.io/conferences/summareranker/</guid>
       <description></description>
     </item>
     
