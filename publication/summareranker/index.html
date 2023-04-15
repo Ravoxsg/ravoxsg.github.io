@@ -276,7 +276,7 @@
 
   
 
-<meta name="description" content="New second-stage approach to abstractive summarization, consisting in fusing together existing summary candidates through a Fusion-In-Decoder approach." />
+<meta name="description" content="Second-stage approach to abstractive summarization, re-ranking candidates obtained trough beam search, diverse beam search, etc by jointly optimizing on several metrics (e.g, ROUGE-1, BERTScore)." />
 
 
 
@@ -317,8 +317,8 @@
 <meta property="twitter:image" content="https://ravoxsg.github.io/publication/summareranker/featured.png" />
 <meta property="og:site_name" content="Mathieu Ravaut" />
 <meta property="og:url" content="https://ravoxsg.github.io/publication/summareranker/" />
-<meta property="og:title" content="SummaReranker | Mathieu Ravaut" />
-<meta property="og:description" content="New second-stage approach to abstractive summarization, consisting in fusing together existing summary candidates through a Fusion-In-Decoder approach." /><meta property="og:image" content="https://ravoxsg.github.io/publication/summareranker/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization | Mathieu Ravaut" />
+<meta property="og:description" content="Second-stage approach to abstractive summarization, re-ranking candidates obtained trough beam search, diverse beam search, etc by jointly optimizing on several metrics (e.g, ROUGE-1, BERTScore)." /><meta property="og:image" content="https://ravoxsg.github.io/publication/summareranker/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -327,7 +327,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2022-12-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-05-01T00:00:00&#43;00:00">
   
 
 
@@ -353,14 +353,14 @@
     "@type": "WebPage",
     "@id": "https://ravoxsg.github.io/publication/summareranker/"
   },
-  "headline": "SummaReranker",
+  "headline": "SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization",
   
   "image": [
     "https://ravoxsg.github.io/publication/summareranker/featured.png"
   ],
   
   "datePublished": "2017-01-01T00:00:00Z",
-  "dateModified": "2022-12-01T00:00:00Z",
+  "dateModified": "2022-05-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -375,7 +375,7 @@
       "url": "https://ravoxsg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "New second-stage approach to abstractive summarization, consisting in fusing together existing summary candidates through a Fusion-In-Decoder approach."
+  "description": "Second-stage approach to abstractive summarization, re-ranking candidates obtained trough beam search, diverse beam search, etc by jointly optimizing on several metrics (e.g, ROUGE-1, BERTScore)."
 }
 </script>
 
@@ -397,7 +397,7 @@
 
 
   
-  <title>SummaReranker | Mathieu Ravaut</title>
+  <title>SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization | Mathieu Ravaut</title>
 
   
   
@@ -848,7 +848,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>SummaReranker</h1>
+  <h1>SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization</h1>
 
   
 
@@ -878,7 +878,7 @@
     
       
     
-    December, 2022
+    May, 2022
   </span>
   
 
@@ -928,7 +928,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/ntunlp/SummaFusion/" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/hhttps:/github.com/ntunlp/SummaReranker" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -946,7 +946,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://aclanthology.org/2022.emnlp-main.581.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://aclanthology.org/2022.acl-long.309.pdf" target="_blank" rel="noopener">
   Source Document
 </a>
 
@@ -959,9 +959,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 756px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 708px; max-height: 824px;">
   <div style="position: relative">
-    <img src="/publication/summareranker/featured_hu571797d821fbfea622825bebdf6401d0_440398_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="756" alt="" class="featured-image">
+    <img src="/publication/summareranker/featured_hue9731179cb61308c32ed0ab22357165b_136346_720x2500_fit_q75_h2_lanczos_3.webp" width="708" height="824" alt="" class="featured-image">
     
   </div>
 </div>
@@ -972,7 +972,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Sequence-to-sequence deep neural models fine-tuned for abstractive summarization can achieve great performance on datasets with enough human annotations. Yet, it has been shown that they have not reached their full potential, with a wide gap between the top beam search output and the oracle beam. Recently, re-ranking methods have been proposed, to learn to select a better summary candidate. However, such methods are limited by the summary quality aspects captured by the first-stage candidates. To bypass this limitation, we propose a new paradigm in second-stage abstractive summarization called SummaFusion that fuses several summary candidates to produce a novel abstractive second-stage summary. Our method works well on several summarization datasets, improving both the ROUGE scores and qualitative properties of fused summaries. It is especially good when the candidates to fuse are worse, such as in the few-shot setup where we set a new state-of-the-art. We will make our code and checkpoints available at <a href="https://github.com/ntunlp/SummaFusion/" target="_blank" rel="noopener">https://github.com/ntunlp/SummaFusion/</a>.</p>
+    <p class="pub-abstract">Sequence-to-sequence neural networks have recently achieved great success in abstractive summarization, especially through fine-tuning large pre-trained language models on the downstream dataset. These models are typically decoded with beam search to generate a unique summary. However, the search space is very large, and with the exposure bias, such decoding is not optimal. In this paper, we show that it is possible to directly train a second-stage model performing re-ranking on a set of summary candidates. Our mixture-of-experts SummaReranker learns to select a better candidate and consistently improves the performance of the base model. With a base PEGASUS, we push ROUGE scores by 5.44% on CNN-DailyMail (47.16 ROUGE-1), 1.31% on XSum (48.12 ROUGE-1) and 9.34% on Reddit TIFU (29.83 ROUGE-1), reaching a new state-of-the-art. Our code and checkpoints will be available at <a href="https://github.com/ntunlp/SummaReranker" target="_blank" rel="noopener">https://github.com/ntunlp/SummaReranker</a>.</p>
     
 
     
@@ -1000,7 +1000,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>EMNLP 2022</em></div>
+          <div class="col-12 col-md-9">In <em>ACL 2022</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -1046,7 +1046,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F&amp;text=SummaReranker" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F&amp;text=SummaReranker%3A&#43;A&#43;Multi-Task&#43;Mixture-of-Expert&#43;Re-ranking&#43;Framework&#43;for&#43;Abstractive&#43;Summarization" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1063,7 +1063,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F&amp;t=SummaReranker" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F&amp;t=SummaReranker%3A&#43;A&#43;Multi-Task&#43;Mixture-of-Expert&#43;Re-ranking&#43;Framework&#43;for&#43;Abstractive&#43;Summarization" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1082,7 +1082,7 @@
         
       
       <li>
-        <a href="mailto:?subject=SummaReranker&amp;body=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=SummaReranker%3A%20A%20Multi-Task%20Mixture-of-Expert%20Re-ranking%20Framework%20for%20Abstractive%20Summarization&amp;body=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1099,7 +1099,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F&amp;title=SummaReranker" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F&amp;title=SummaReranker%3A&#43;A&#43;Multi-Task&#43;Mixture-of-Expert&#43;Re-ranking&#43;Framework&#43;for&#43;Abstractive&#43;Summarization" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1116,7 +1116,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=SummaReranker%20https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=SummaReranker%3A&#43;A&#43;Multi-Task&#43;Mixture-of-Expert&#43;Re-ranking&#43;Framework&#43;for&#43;Abstractive&#43;Summarization%20https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1133,7 +1133,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F&amp;title=SummaReranker" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fravoxsg.github.io%2Fpublication%2Fsummareranker%2F&amp;title=SummaReranker%3A&#43;A&#43;Multi-Task&#43;Mixture-of-Expert&#43;Re-ranking&#43;Framework&#43;for&#43;Abstractive&#43;Summarization" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

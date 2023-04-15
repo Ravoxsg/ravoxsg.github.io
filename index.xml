@@ -33,10 +33,10 @@
     </item>
     
     <item>
-      <title>SummaReranker</title>
-      <link>https://ravoxsg.github.io/publication/summareranker/</link>
+      <title>Towards Summary Candidates Fusion</title>
+      <link>https://ravoxsg.github.io/publication/summafusion/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/summareranker/</guid>
+      <guid>https://ravoxsg.github.io/publication/summafusion/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -52,10 +52,10 @@
     </item>
     
     <item>
-      <title>Towards Summary Candidates Fusion</title>
-      <link>https://ravoxsg.github.io/publication/summafusion/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/publication/summafusion/</guid>
+      <title>SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization</title>
+      <link>https://ravoxsg.github.io/publication/summareranker/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/publication/summareranker/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -254,7 +254,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-349587162&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-167342985&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -264,7 +264,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-349587162&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-167342985&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
