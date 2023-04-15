@@ -34,25 +34,25 @@
     
     <item>
       <title>A Data-centric Framework for Improving Domain-specific Machine Reading Comprehension Datasets</title>
-      <link>https://ravoxsg.github.io/conferences/datamrc/</link>
+      <link>https://ravoxsg.github.io/publication/datamrc/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/conferences/datamrc/</guid>
+      <guid>https://ravoxsg.github.io/publication/datamrc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards Summary Candidates Fusion</title>
-      <link>https://ravoxsg.github.io/conferences/summafusion/</link>
+      <link>https://ravoxsg.github.io/publication/summafusion/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/conferences/summafusion/</guid>
+      <guid>https://ravoxsg.github.io/publication/summafusion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization</title>
-      <link>https://ravoxsg.github.io/conferences/summareranker/</link>
+      <link>https://ravoxsg.github.io/publication/summareranker/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/conferences/summareranker/</guid>
+      <guid>https://ravoxsg.github.io/publication/summareranker/</guid>
       <description></description>
     </item>
     
@@ -162,9 +162,9 @@
     
     <item>
       <title>Predicting Twitter Engagement With Deep Language Models</title>
-      <link>https://ravoxsg.github.io/conferences/recsys/</link>
+      <link>https://ravoxsg.github.io/publication/recsys/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/conferences/recsys/</guid>
+      <guid>https://ravoxsg.github.io/publication/recsys/</guid>
       <description></description>
     </item>
     
@@ -272,7 +272,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-379214685&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-749186253&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -282,7 +282,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-379214685&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-749186253&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -748,9 +748,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Truly Multi-modal YouTube-8M Video Classification with Video, Audio, and Text</title>
-      <link>https://ravoxsg.github.io/conferences/youtube/</link>
+      <link>https://ravoxsg.github.io/publication/youtube/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://ravoxsg.github.io/conferences/youtube/</guid>
+      <guid>https://ravoxsg.github.io/publication/youtube/</guid>
       <description></description>
     </item>
     
