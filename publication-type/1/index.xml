@@ -29,6 +29,14 @@
     </item>
     
     <item>
+      <title>Unsupervised Summarization Re-ranking</title>
+      <link>https://ravoxsg.github.io/publication/summscore/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/publication/summscore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SummaReranker: A Multi-Task Mixture-of-Expert Re-ranking Framework for Abstractive Summarization</title>
       <link>https://ravoxsg.github.io/publication/summareranker/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
