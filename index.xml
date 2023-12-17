@@ -33,6 +33,30 @@
     </item>
     
     <item>
+      <title>ChatGPT’s One-year Anniversary: Are Open-Source Large Language Models Catching up?</title>
+      <link>https://ravoxsg.github.io/publication/chatgptvsopensource/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/publication/chatgptvsopensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Context Utilization in Summarization with Large Language Models</title>
+      <link>https://ravoxsg.github.io/publication/contextutilization/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/publication/contextutilization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PromptSum: Parameter-Efficient Controllable Abstractive Summarization</title>
+      <link>https://ravoxsg.github.io/publication/promptsum/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://ravoxsg.github.io/publication/promptsum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Unsupervised Summarization Re-ranking</title>
       <link>https://ravoxsg.github.io/publication/summscore/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
@@ -280,7 +304,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-791625348&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-967415832&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -290,7 +314,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-791625348&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-967415832&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
